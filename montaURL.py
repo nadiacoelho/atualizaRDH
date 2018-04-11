@@ -52,4 +52,4 @@ else:
     else:
         enderecoXLSX = 'https://cdre.ons.org.br/CDRE%20%20Processo%20Relatrio%20Dirio%20da%20Situao%20HidrulicoH/'+'RDH_'+ str(a) + '/'+ str(m) + '_'+ mesPasta+ '/RDH'+ str(d)+ mes+ '.xlsx'
 
-print(enderecoXLSX)
+enderecoLogin = 'https://pops.ons.org.br/ons.pop.federation/?wa=wsignin1.0&wtrealm=+https%3a%2f%2fcdre.ons.org.br%2f_trust%2f&wctx=https%3a%2f%2fcdre.ons.org.br%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&wreply=https%3a%2f%2fcdre.ons.org.br%2f_trust%2fdefault.aspx'

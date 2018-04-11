@@ -2,7 +2,7 @@ import requests
 import userSettings
 import montaURL
 
-endereco = montaURL.enderecoXLSX
+endereco = montaURL.enderecoLogin
 
 usuario = userSettings.usuario
 senha = userSettings.senha
