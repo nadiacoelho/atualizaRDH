@@ -1,9 +1,11 @@
 import requests
+import userSettings
+import montaURL
 
-endereco = 'http://www.tidia-ae.usp.br/portal'
-usuario = '8994265'
-senha = '1753109462'
+endereco = montaURL.enderecoXLSX
 
-response = requests.post(endereco, data = {'eid': usuario , 'pw': senha})
+usuario = userSettings.usuario
+senha = userSettings.senha
 
-print(response.status_code)
+resp = requests.post(endereco, data = {'username': usuario , 'password': senha})
+print(resp.status_code)
